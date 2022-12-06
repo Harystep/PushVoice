@@ -1,0 +1,6 @@
+framework module Pods_KNVoiceBroadcast {
+  umbrella header "Pods-KNVoiceBroadcast-umbrella.h"
+
+  export *
+  module * { export * }
+}

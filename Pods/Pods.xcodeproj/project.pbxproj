@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5FB6AB0A09E7A2F2BE11AD6BAEFD9AED /* JPush */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8FECBDA288EFDA57C5108034E2414BDF /* Build configuration list for PBXAggregateTarget "JPush" */;
+			buildPhases = (
+			);
+			dependencies = (
+				61A7D75865C20272D53BC19298DA2A93 /* PBXTargetDependency */,
+			);
+			name = JPush;
+		};
+		D504B99928659EA67A1C3A9E981EB8FF /* JCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4EE7338F2FBA1E0EC226EF8C45298469 /* Build configuration list for PBXAggregateTarget "JCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = JCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0F131D8F2D73701E6C68850B16F5C491 /* Pods-KNVoiceBroadcast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DC910FFDA5A2CA5806A9FFB63720F9 /* Pods-KNVoiceBroadcast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B8678E95FB447FDDB4EE4D9317D5CB5 /* Pods-KNVoiceBroadcast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64409DB88C252333E4B690B455B0F8AC /* Pods-KNVoiceBroadcast-dummy.m */; };
+		B0378B65B1C94C10E27F02F36FE450DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		384986D7AA465ECE0EAB91068C040E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D504B99928659EA67A1C3A9E981EB8FF;
+			remoteInfo = JCore;
+		};
+		5C75689EA232ACDCCE602D558874DCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D504B99928659EA67A1C3A9E981EB8FF;
+			remoteInfo = JCore;
+		};
+		A2B45CE446A74A72891AB9A5040960AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB6AB0A09E7A2F2BE11AD6BAEFD9AED;
+			remoteInfo = JPush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		066C039C2EFA3432A96415E468880E7A /* libjcore-ios-2.2.4.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.2.4.a"; sourceTree = "<group>"; };
+		19DF34EA3BBE74C4A93613D19F213737 /* JCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.debug.xcconfig; sourceTree = "<group>"; };
+		1F1E7FD272123E26EA3CC2AA793504DD /* Pods-KNVoiceBroadcast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KNVoiceBroadcast-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		54C6CBE26511262554C2639EC65471C7 /* Pods-KNVoiceBroadcast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KNVoiceBroadcast-acknowledgements.plist"; sourceTree = "<group>"; };
+		64409DB88C252333E4B690B455B0F8AC /* Pods-KNVoiceBroadcast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KNVoiceBroadcast-dummy.m"; sourceTree = "<group>"; };
+		81905A38FEE79785234C8094BFCC1E1B /* Pods-KNVoiceBroadcast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KNVoiceBroadcast.release.xcconfig"; sourceTree = "<group>"; };
+		95CD953966B2803CA06BFAF9837BA75F /* Pods_KNVoiceBroadcast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KNVoiceBroadcast.framework; path = "Pods-KNVoiceBroadcast.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B249187FF1958A10A047D62BF2A9334 /* JCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3E63651F1010B27F89151AF8ACA6B1 /* Pods-KNVoiceBroadcast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KNVoiceBroadcast-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3D035D2EA0CC5FBEAA5D2059AC4C687 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		B53C01E71830D8E9649DEF57A8C3893B /* JPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPush.debug.xcconfig; sourceTree = "<group>"; };
+		C4F85F74FAC78959945930A6375BFAE0 /* Pods-KNVoiceBroadcast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KNVoiceBroadcast.modulemap"; sourceTree = "<group>"; };
+		D4DC910FFDA5A2CA5806A9FFB63720F9 /* Pods-KNVoiceBroadcast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KNVoiceBroadcast-umbrella.h"; sourceTree = "<group>"; };
+		EECBE76209F27B10CE2BE3F740A8B58F /* Pods-KNVoiceBroadcast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KNVoiceBroadcast.debug.xcconfig"; sourceTree = "<group>"; };
+		F777CE317C00555CB1EE5FB897943FE1 /* JPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPush.release.xcconfig; sourceTree = "<group>"; };
+		FC4E8D1391702278BF83C7BB341BB642 /* libjpush-ios-3.3.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.3.2.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE5D9CAEEA2A5F5BBF0CF7FBA77AF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0378B65B1C94C10E27F02F36FE450DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A4036D0A900B34AF67D12188F3A10B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC4E8D1391702278BF83C7BB341BB642 /* libjpush-ios-3.3.2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46AE23981A0CB2C11B5767AF4634582B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19DF34EA3BBE74C4A93613D19F213737 /* JCore.debug.xcconfig */,
+				9B249187FF1958A10A047D62BF2A9334 /* JCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JCore";
+			sourceTree = "<group>";
+		};
+		68EAC9F647D9F785490C4BE568B1EBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CD953966B2803CA06BFAF9837BA75F /* Pods_KNVoiceBroadcast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85CB4EB1F0068C0CCF5D970F1EFB29A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D08C2A190F9B190CB9DA890546008548 /* JCore */,
+				A2346FBCFB858CB6BD80B7EFAFAE9A42 /* JPush */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A1542A4C5F1B8E19F26D6CBF84D20B0 /* Pods-KNVoiceBroadcast */ = {
+			isa = PBXGroup;
+			children = (
+				C4F85F74FAC78959945930A6375BFAE0 /* Pods-KNVoiceBroadcast.modulemap */,
+				9F3E63651F1010B27F89151AF8ACA6B1 /* Pods-KNVoiceBroadcast-acknowledgements.markdown */,
+				54C6CBE26511262554C2639EC65471C7 /* Pods-KNVoiceBroadcast-acknowledgements.plist */,
+				64409DB88C252333E4B690B455B0F8AC /* Pods-KNVoiceBroadcast-dummy.m */,
+				1F1E7FD272123E26EA3CC2AA793504DD /* Pods-KNVoiceBroadcast-Info.plist */,
+				D4DC910FFDA5A2CA5806A9FFB63720F9 /* Pods-KNVoiceBroadcast-umbrella.h */,
+				EECBE76209F27B10CE2BE3F740A8B58F /* Pods-KNVoiceBroadcast.debug.xcconfig */,
+				81905A38FEE79785234C8094BFCC1E1B /* Pods-KNVoiceBroadcast.release.xcconfig */,
+			);
+			name = "Pods-KNVoiceBroadcast";
+			path = "Target Support Files/Pods-KNVoiceBroadcast";
+			sourceTree = "<group>";
+		};
+		A2346FBCFB858CB6BD80B7EFAFAE9A42 /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				B3D035D2EA0CC5FBEAA5D2059AC4C687 /* JPUSHService.h */,
+				2A4036D0A900B34AF67D12188F3A10B6 /* Frameworks */,
+				F86A60B677F30DFC53A4E2148264946A /* Support Files */,
+			);
+			name = JPush;
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				85CB4EB1F0068C0CCF5D970F1EFB29A4 /* Pods */,
+				68EAC9F647D9F785490C4BE568B1EBAC /* Products */,
+				EDD3C2C080256469CF849AFEE873E9A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D08C2A190F9B190CB9DA890546008548 /* JCore */ = {
+			isa = PBXGroup;
+			children = (
+				F9B03E83F130C2DB23C9270018D7325B /* Frameworks */,
+				46AE23981A0CB2C11B5767AF4634582B /* Support Files */,
+			);
+			name = JCore;
+			path = JCore;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDD3C2C080256469CF849AFEE873E9A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1542A4C5F1B8E19F26D6CBF84D20B0 /* Pods-KNVoiceBroadcast */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F86A60B677F30DFC53A4E2148264946A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53C01E71830D8E9649DEF57A8C3893B /* JPush.debug.xcconfig */,
+				F777CE317C00555CB1EE5FB897943FE1 /* JPush.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPush";
+			sourceTree = "<group>";
+		};
+		F9B03E83F130C2DB23C9270018D7325B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				066C039C2EFA3432A96415E468880E7A /* libjcore-ios-2.2.4.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C3D6E406059BD05B20A8AF7DECF6F53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F131D8F2D73701E6C68850B16F5C491 /* Pods-KNVoiceBroadcast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		73ED903A8BC1964D1A72FE7CF2DEB5F8 /* Pods-KNVoiceBroadcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE257F8BB9581A75E6264520F8CF687 /* Build configuration list for PBXNativeTarget "Pods-KNVoiceBroadcast" */;
+			buildPhases = (
+				5C3D6E406059BD05B20A8AF7DECF6F53 /* Headers */,
+				C67F24B41209707EA8FA603297E58DB7 /* Sources */,
+				9BE5D9CAEEA2A5F5BBF0CF7FBA77AF04 /* Frameworks */,
+				6966674075D99D6EF68D3647E6D8D8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4826E48DB2B34E686314EE7E64D8D1D5 /* PBXTargetDependency */,
+				A3E18A556E37DB879D2EC92A8E60838F /* PBXTargetDependency */,
+			);
+			name = "Pods-KNVoiceBroadcast";
+			productName = "Pods-KNVoiceBroadcast";
+			productReference = 95CD953966B2803CA06BFAF9837BA75F /* Pods_KNVoiceBroadcast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 68EAC9F647D9F785490C4BE568B1EBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D504B99928659EA67A1C3A9E981EB8FF /* JCore */,
+				5FB6AB0A09E7A2F2BE11AD6BAEFD9AED /* JPush */,
+				73ED903A8BC1964D1A72FE7CF2DEB5F8 /* Pods-KNVoiceBroadcast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6966674075D99D6EF68D3647E6D8D8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67F24B41209707EA8FA603297E58DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8678E95FB447FDDB4EE4D9317D5CB5 /* Pods-KNVoiceBroadcast-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4826E48DB2B34E686314EE7E64D8D1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			target = D504B99928659EA67A1C3A9E981EB8FF /* JCore */;
+			targetProxy = 384986D7AA465ECE0EAB91068C040E3A /* PBXContainerItemProxy */;
+		};
+		61A7D75865C20272D53BC19298DA2A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			target = D504B99928659EA67A1C3A9E981EB8FF /* JCore */;
+			targetProxy = 5C75689EA232ACDCCE602D558874DCDC /* PBXContainerItemProxy */;
+		};
+		A3E18A556E37DB879D2EC92A8E60838F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPush;
+			target = 5FB6AB0A09E7A2F2BE11AD6BAEFD9AED /* JPush */;
+			targetProxy = A2B45CE446A74A72891AB9A5040960AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC92CBCB861486D38B5833DA63A2BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53C01E71830D8E9649DEF57A8C3893B /* JPush.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19683A75AC56EFEBF00610127DA28E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81905A38FEE79785234C8094BFCC1E1B /* Pods-KNVoiceBroadcast.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KNVoiceBroadcast/Pods-KNVoiceBroadcast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KNVoiceBroadcast/Pods-KNVoiceBroadcast.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A1E9D97215E215D6C666D1EDB0B6799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B249187FF1958A10A047D62BF2A9334 /* JCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7F59CD9A18FCD821A046C31A9514E82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DF34EA3BBE74C4A93613D19F213737 /* JCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B13AF61CBA233BB09B16194BF2DE44D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECBE76209F27B10CE2BE3F740A8B58F /* Pods-KNVoiceBroadcast.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KNVoiceBroadcast/Pods-KNVoiceBroadcast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KNVoiceBroadcast/Pods-KNVoiceBroadcast.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5A683AA47B7491B604CF7F952DA11C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F777CE317C00555CB1EE5FB897943FE1 /* JPush.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE7338F2FBA1E0EC226EF8C45298469 /* Build configuration list for PBXAggregateTarget "JCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F59CD9A18FCD821A046C31A9514E82B /* Debug */,
+				1A1E9D97215E215D6C666D1EDB0B6799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FECBDA288EFDA57C5108034E2414BDF /* Build configuration list for PBXAggregateTarget "JPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC92CBCB861486D38B5833DA63A2BFE /* Debug */,
+				E5A683AA47B7491B604CF7F952DA11C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE257F8BB9581A75E6264520F8CF687 /* Build configuration list for PBXNativeTarget "Pods-KNVoiceBroadcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13AF61CBA233BB09B16194BF2DE44D1 /* Debug */,
+				19683A75AC56EFEBF00610127DA28E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

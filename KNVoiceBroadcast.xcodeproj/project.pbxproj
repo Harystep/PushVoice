@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0487DB3624764CB000925CB3 /* JPushTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487DB3524764CB000925CB3 /* JPushTool.m */; };
+		0487DB5524764FDF00925CB3 /* tts_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3924764FDE00925CB3 /* tts_8.mp3 */; };
+		0487DB5624764FDF00925CB3 /* tts_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3924764FDE00925CB3 /* tts_8.mp3 */; };
+		0487DB5724764FDF00925CB3 /* tts_ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3A24764FDE00925CB3 /* tts_ten.mp3 */; };
+		0487DB5824764FDF00925CB3 /* tts_ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3A24764FDE00925CB3 /* tts_ten.mp3 */; };
+		0487DB5924764FDF00925CB3 /* tts_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3B24764FDE00925CB3 /* tts_9.mp3 */; };
+		0487DB5A24764FDF00925CB3 /* tts_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3B24764FDE00925CB3 /* tts_9.mp3 */; };
+		0487DB5B24764FDF00925CB3 /* tts_yuan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3C24764FDE00925CB3 /* tts_yuan.mp3 */; };
+		0487DB5C24764FDF00925CB3 /* tts_yuan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3C24764FDE00925CB3 /* tts_yuan.mp3 */; };
+		0487DB5D24764FDF00925CB3 /* tts_dot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3D24764FDE00925CB3 /* tts_dot.mp3 */; };
+		0487DB5E24764FDF00925CB3 /* tts_dot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3D24764FDE00925CB3 /* tts_dot.mp3 */; };
+		0487DB5F24764FDF00925CB3 /* tts_pre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3E24764FDE00925CB3 /* tts_pre.mp3 */; };
+		0487DB6024764FDF00925CB3 /* tts_pre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3E24764FDE00925CB3 /* tts_pre.mp3 */; };
+		0487DB6124764FDF00925CB3 /* tts_default.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3F24764FDE00925CB3 /* tts_default.mp3 */; };
+		0487DB6224764FDF00925CB3 /* tts_default.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB3F24764FDE00925CB3 /* tts_default.mp3 */; };
+		0487DB6324764FDF00925CB3 /* tts_thousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4024764FDF00925CB3 /* tts_thousand.mp3 */; };
+		0487DB6424764FDF00925CB3 /* tts_thousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4024764FDF00925CB3 /* tts_thousand.mp3 */; };
+		0487DB6524764FDF00925CB3 /* tts_hundred.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4124764FDF00925CB3 /* tts_hundred.mp3 */; };
+		0487DB6624764FDF00925CB3 /* tts_hundred.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4124764FDF00925CB3 /* tts_hundred.mp3 */; };
+		0487DB6724764FDF00925CB3 /* tts_ten_thousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4224764FDF00925CB3 /* tts_ten_thousand.mp3 */; };
+		0487DB6824764FDF00925CB3 /* tts_ten_thousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4224764FDF00925CB3 /* tts_ten_thousand.mp3 */; };
+		0487DB6924764FDF00925CB3 /* tts_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4324764FDF00925CB3 /* tts_2.mp3 */; };
+		0487DB6A24764FDF00925CB3 /* tts_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4324764FDF00925CB3 /* tts_2.mp3 */; };
+		0487DB6B24764FDF00925CB3 /* tts_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4424764FDF00925CB3 /* tts_3.mp3 */; };
+		0487DB6C24764FDF00925CB3 /* tts_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4424764FDF00925CB3 /* tts_3.mp3 */; };
+		0487DB6D24764FDF00925CB3 /* tts_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4524764FDF00925CB3 /* tts_1.mp3 */; };
+		0487DB6E24764FDF00925CB3 /* tts_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4524764FDF00925CB3 /* tts_1.mp3 */; };
+		0487DB6F24764FDF00925CB3 /* tts_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4624764FDF00925CB3 /* tts_0.mp3 */; };
+		0487DB7024764FDF00925CB3 /* tts_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4624764FDF00925CB3 /* tts_0.mp3 */; };
+		0487DB7124764FDF00925CB3 /* tts_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4724764FDF00925CB3 /* tts_4.mp3 */; };
+		0487DB7224764FDF00925CB3 /* tts_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4724764FDF00925CB3 /* tts_4.mp3 */; };
+		0487DB7324764FDF00925CB3 /* tts_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4824764FDF00925CB3 /* tts_5.mp3 */; };
+		0487DB7424764FDF00925CB3 /* tts_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4824764FDF00925CB3 /* tts_5.mp3 */; };
+		0487DB7524764FDF00925CB3 /* tts_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4924764FDF00925CB3 /* tts_7.mp3 */; };
+		0487DB7624764FDF00925CB3 /* tts_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4924764FDF00925CB3 /* tts_7.mp3 */; };
+		0487DB7724764FDF00925CB3 /* tts_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4A24764FDF00925CB3 /* tts_6.mp3 */; };
+		0487DB7824764FDF00925CB3 /* tts_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4A24764FDF00925CB3 /* tts_6.mp3 */; };
+		0487DB7924764FDF00925CB3 /* logo80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4C24764FDF00925CB3 /* logo80x80.png */; };
+		0487DB7A24764FDF00925CB3 /* logo80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4C24764FDF00925CB3 /* logo80x80.png */; };
+		0487DB7B24764FDF00925CB3 /* logo1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4D24764FDF00925CB3 /* logo1024x1024.png */; };
+		0487DB7C24764FDF00925CB3 /* logo1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4D24764FDF00925CB3 /* logo1024x1024.png */; };
+		0487DB7D24764FDF00925CB3 /* logo58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4E24764FDF00925CB3 /* logo58x58.png */; };
+		0487DB7E24764FDF00925CB3 /* logo58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4E24764FDF00925CB3 /* logo58x58.png */; };
+		0487DB7F24764FDF00925CB3 /* logo60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4F24764FDF00925CB3 /* logo60x60.png */; };
+		0487DB8024764FDF00925CB3 /* logo60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB4F24764FDF00925CB3 /* logo60x60.png */; };
+		0487DB8124764FDF00925CB3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5024764FDF00925CB3 /* logo.png */; };
+		0487DB8224764FDF00925CB3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5024764FDF00925CB3 /* logo.png */; };
+		0487DB8324764FDF00925CB3 /* logo120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5124764FDF00925CB3 /* logo120x120.png */; };
+		0487DB8424764FDF00925CB3 /* logo120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5124764FDF00925CB3 /* logo120x120.png */; };
+		0487DB8524764FDF00925CB3 /* logo40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5224764FDF00925CB3 /* logo40x40.png */; };
+		0487DB8624764FDF00925CB3 /* logo40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5224764FDF00925CB3 /* logo40x40.png */; };
+		0487DB8724764FDF00925CB3 /* logo87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5324764FDF00925CB3 /* logo87x87.png */; };
+		0487DB8824764FDF00925CB3 /* logo87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5324764FDF00925CB3 /* logo87x87.png */; };
+		0487DB8924764FDF00925CB3 /* logo180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5424764FDF00925CB3 /* logo180x180.png */; };
+		0487DB8A24764FDF00925CB3 /* logo180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 0487DB5424764FDF00925CB3 /* logo180x180.png */; };
+		04D73F3C2476278700FC48EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F3B2476278700FC48EF /* AppDelegate.m */; };
+		04D73F3F2476278700FC48EF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F3E2476278700FC48EF /* SceneDelegate.m */; };
+		04D73F422476278700FC48EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F412476278700FC48EF /* ViewController.m */; };
+		04D73F452476278700FC48EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D73F432476278700FC48EF /* Main.storyboard */; };
+		04D73F472476278F00FC48EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D73F462476278F00FC48EF /* Assets.xcassets */; };
+		04D73F4A2476278F00FC48EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D73F482476278F00FC48EF /* LaunchScreen.storyboard */; };
+		04D73F4D2476278F00FC48EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F4C2476278F00FC48EF /* main.m */; };
+		04D73F5B2476281300FC48EF /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F5A2476281300FC48EF /* NotificationService.m */; };
+		04D73F5F2476281300FC48EF /* KNNotificationServiceExtension4Voice.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04D73F572476281300FC48EF /* KNNotificationServiceExtension4Voice.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04D73F6A24762A2F00FC48EF /* KNAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F6924762A2F00FC48EF /* KNAudioTool.m */; };
+		04D73F6B24762A2F00FC48EF /* KNAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F6924762A2F00FC48EF /* KNAudioTool.m */; };
+		04D73F7624762BFD00FC48EF /* NSDictionary+YJDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F6F24762BFD00FC48EF /* NSDictionary+YJDictionary.m */; };
+		04D73F7724762BFD00FC48EF /* NSDictionary+YJDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F6F24762BFD00FC48EF /* NSDictionary+YJDictionary.m */; };
+		04D73F7824762BFD00FC48EF /* NSString+YJString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F7124762BFD00FC48EF /* NSString+YJString.m */; };
+		04D73F7924762BFD00FC48EF /* NSString+YJString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F7124762BFD00FC48EF /* NSString+YJString.m */; };
+		04EDA0C8273EBEA9003BA522 /* KNApnsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDA0C7273EBEA9003BA522 /* KNApnsHelper.m */; };
+		04EDA0C9273EBEA9003BA522 /* KNApnsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDA0C7273EBEA9003BA522 /* KNApnsHelper.m */; };
+		F84E21764D0B1B83B362DFE1 /* Pods_KNVoiceBroadcast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C83C89142BA5B4DB84A06E /* Pods_KNVoiceBroadcast.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D73F5D2476281300FC48EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D73F2F2476278700FC48EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D73F562476281300FC48EF;
+			remoteInfo = KNNotificationServiceExtension4Voice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04D73F632476281300FC48EF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04D73F5F2476281300FC48EF /* KNNotificationServiceExtension4Voice.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0487DB3524764CB000925CB3 /* JPushTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPushTool.m; sourceTree = "<group>"; };
+		0487DB3924764FDE00925CB3 /* tts_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_8.mp3; sourceTree = "<group>"; };
+		0487DB3A24764FDE00925CB3 /* tts_ten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_ten.mp3; sourceTree = "<group>"; };
+		0487DB3B24764FDE00925CB3 /* tts_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_9.mp3; sourceTree = "<group>"; };
+		0487DB3C24764FDE00925CB3 /* tts_yuan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_yuan.mp3; sourceTree = "<group>"; };
+		0487DB3D24764FDE00925CB3 /* tts_dot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_dot.mp3; sourceTree = "<group>"; };
+		0487DB3E24764FDE00925CB3 /* tts_pre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_pre.mp3; sourceTree = "<group>"; };
+		0487DB3F24764FDE00925CB3 /* tts_default.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_default.mp3; sourceTree = "<group>"; };
+		0487DB4024764FDF00925CB3 /* tts_thousand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_thousand.mp3; sourceTree = "<group>"; };
+		0487DB4124764FDF00925CB3 /* tts_hundred.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_hundred.mp3; sourceTree = "<group>"; };
+		0487DB4224764FDF00925CB3 /* tts_ten_thousand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_ten_thousand.mp3; sourceTree = "<group>"; };
+		0487DB4324764FDF00925CB3 /* tts_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_2.mp3; sourceTree = "<group>"; };
+		0487DB4424764FDF00925CB3 /* tts_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_3.mp3; sourceTree = "<group>"; };
+		0487DB4524764FDF00925CB3 /* tts_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_1.mp3; sourceTree = "<group>"; };
+		0487DB4624764FDF00925CB3 /* tts_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_0.mp3; sourceTree = "<group>"; };
+		0487DB4724764FDF00925CB3 /* tts_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_4.mp3; sourceTree = "<group>"; };
+		0487DB4824764FDF00925CB3 /* tts_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_5.mp3; sourceTree = "<group>"; };
+		0487DB4924764FDF00925CB3 /* tts_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_7.mp3; sourceTree = "<group>"; };
+		0487DB4A24764FDF00925CB3 /* tts_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_6.mp3; sourceTree = "<group>"; };
+		0487DB4C24764FDF00925CB3 /* logo80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo80x80.png; sourceTree = "<group>"; };
+		0487DB4D24764FDF00925CB3 /* logo1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1024x1024.png; sourceTree = "<group>"; };
+		0487DB4E24764FDF00925CB3 /* logo58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo58x58.png; sourceTree = "<group>"; };
+		0487DB4F24764FDF00925CB3 /* logo60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo60x60.png; sourceTree = "<group>"; };
+		0487DB5024764FDF00925CB3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		0487DB5124764FDF00925CB3 /* logo120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo120x120.png; sourceTree = "<group>"; };
+		0487DB5224764FDF00925CB3 /* logo40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo40x40.png; sourceTree = "<group>"; };
+		0487DB5324764FDF00925CB3 /* logo87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo87x87.png; sourceTree = "<group>"; };
+		0487DB5424764FDF00925CB3 /* logo180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo180x180.png; sourceTree = "<group>"; };
+		04D73F372476278700FC48EF /* KNVoiceBroadcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNVoiceBroadcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D73F3A2476278700FC48EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04D73F3B2476278700FC48EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04D73F3D2476278700FC48EF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04D73F3E2476278700FC48EF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04D73F402476278700FC48EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04D73F412476278700FC48EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04D73F442476278700FC48EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D73F462476278F00FC48EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D73F492476278F00FC48EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D73F4B2476278F00FC48EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D73F4C2476278F00FC48EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D73F572476281300FC48EF /* KNNotificationServiceExtension4Voice.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KNNotificationServiceExtension4Voice.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D73F592476281300FC48EF /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		04D73F5A2476281300FC48EF /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		04D73F5C2476281300FC48EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D73F6824762A2F00FC48EF /* KNAudioTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNAudioTool.h; sourceTree = "<group>"; };
+		04D73F6924762A2F00FC48EF /* KNAudioTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNAudioTool.m; sourceTree = "<group>"; };
+		04D73F6C24762AEF00FC48EF /* KNVoiceBroadcast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KNVoiceBroadcast.entitlements; sourceTree = "<group>"; };
+		04D73F6F24762BFD00FC48EF /* NSDictionary+YJDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YJDictionary.m"; sourceTree = "<group>"; };
+		04D73F7024762BFD00FC48EF /* NSString+YJString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YJString.h"; sourceTree = "<group>"; };
+		04D73F7124762BFD00FC48EF /* NSString+YJString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YJString.m"; sourceTree = "<group>"; };
+		04D73F7224762BFD00FC48EF /* NSDictionary+YJDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YJDictionary.h"; sourceTree = "<group>"; };
+		04D73F7424762BFD00FC48EF /* JPushTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushTool.h; sourceTree = "<group>"; };
+		04D73F7C24762C1D00FC48EF /* YJMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMacro.h; sourceTree = "<group>"; };
+		04EDA0C6273EBEA9003BA522 /* KNApnsHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNApnsHelper.h; sourceTree = "<group>"; };
+		04EDA0C7273EBEA9003BA522 /* KNApnsHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNApnsHelper.m; sourceTree = "<group>"; };
+		04EE342E27312A160034DDD2 /* KNNotificationServiceExtension4Voice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KNNotificationServiceExtension4Voice.entitlements; sourceTree = "<group>"; };
+		3B86E848C3E1EDB1A08FAC07 /* Pods-KNVoiceBroadcast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNVoiceBroadcast.debug.xcconfig"; path = "Target Support Files/Pods-KNVoiceBroadcast/Pods-KNVoiceBroadcast.debug.xcconfig"; sourceTree = "<group>"; };
+		5567404DA549974DB58941C6 /* Pods-KNVoiceBroadcast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNVoiceBroadcast.release.xcconfig"; path = "Target Support Files/Pods-KNVoiceBroadcast/Pods-KNVoiceBroadcast.release.xcconfig"; sourceTree = "<group>"; };
+		92C83C89142BA5B4DB84A06E /* Pods_KNVoiceBroadcast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KNVoiceBroadcast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D73F342476278700FC48EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84E21764D0B1B83B362DFE1 /* Pods_KNVoiceBroadcast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D73F542476281300FC48EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005F527957898B800513C02D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C83C89142BA5B4DB84A06E /* Pods_KNVoiceBroadcast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0487DB3724764FDE00925CB3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0487DB3824764FDE00925CB3 /* Audios */,
+				0487DB4B24764FDF00925CB3 /* Icon */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0487DB3824764FDE00925CB3 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				0487DB3924764FDE00925CB3 /* tts_8.mp3 */,
+				0487DB3A24764FDE00925CB3 /* tts_ten.mp3 */,
+				0487DB3B24764FDE00925CB3 /* tts_9.mp3 */,
+				0487DB3C24764FDE00925CB3 /* tts_yuan.mp3 */,
+				0487DB3D24764FDE00925CB3 /* tts_dot.mp3 */,
+				0487DB3E24764FDE00925CB3 /* tts_pre.mp3 */,
+				0487DB3F24764FDE00925CB3 /* tts_default.mp3 */,
+				0487DB4024764FDF00925CB3 /* tts_thousand.mp3 */,
+				0487DB4124764FDF00925CB3 /* tts_hundred.mp3 */,
+				0487DB4224764FDF00925CB3 /* tts_ten_thousand.mp3 */,
+				0487DB4324764FDF00925CB3 /* tts_2.mp3 */,
+				0487DB4424764FDF00925CB3 /* tts_3.mp3 */,
+				0487DB4524764FDF00925CB3 /* tts_1.mp3 */,
+				0487DB4624764FDF00925CB3 /* tts_0.mp3 */,
+				0487DB4724764FDF00925CB3 /* tts_4.mp3 */,
+				0487DB4824764FDF00925CB3 /* tts_5.mp3 */,
+				0487DB4924764FDF00925CB3 /* tts_7.mp3 */,
+				0487DB4A24764FDF00925CB3 /* tts_6.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		0487DB4B24764FDF00925CB3 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				0487DB4C24764FDF00925CB3 /* logo80x80.png */,
+				0487DB4D24764FDF00925CB3 /* logo1024x1024.png */,
+				0487DB4E24764FDF00925CB3 /* logo58x58.png */,
+				0487DB4F24764FDF00925CB3 /* logo60x60.png */,
+				0487DB5024764FDF00925CB3 /* logo.png */,
+				0487DB5124764FDF00925CB3 /* logo120x120.png */,
+				0487DB5224764FDF00925CB3 /* logo40x40.png */,
+				0487DB5324764FDF00925CB3 /* logo87x87.png */,
+				0487DB5424764FDF00925CB3 /* logo180x180.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		04D73F2E2476278700FC48EF = {
+			isa = PBXGroup;
+			children = (
+				04D73F392476278700FC48EF /* KNVoiceBroadcast */,
+				04D73F582476281300FC48EF /* KNNotificationServiceExtension4Voice */,
+				04D73F382476278700FC48EF /* Products */,
+				975513CDA2D275C2F7F52795 /* Pods */,
+				005F527957898B800513C02D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04D73F382476278700FC48EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D73F372476278700FC48EF /* KNVoiceBroadcast.app */,
+				04D73F572476281300FC48EF /* KNNotificationServiceExtension4Voice.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D73F392476278700FC48EF /* KNVoiceBroadcast */ = {
+			isa = PBXGroup;
+			children = (
+				04D73F6D24762BDD00FC48EF /* Utils */,
+				04D73F6C24762AEF00FC48EF /* KNVoiceBroadcast.entitlements */,
+				04D73F642476295D00FC48EF /* AudioTool */,
+				04D73F3A2476278700FC48EF /* AppDelegate.h */,
+				04D73F3B2476278700FC48EF /* AppDelegate.m */,
+				04D73F3D2476278700FC48EF /* SceneDelegate.h */,
+				04D73F3E2476278700FC48EF /* SceneDelegate.m */,
+				04D73F402476278700FC48EF /* ViewController.h */,
+				04D73F412476278700FC48EF /* ViewController.m */,
+				04D73F432476278700FC48EF /* Main.storyboard */,
+				04D73F462476278F00FC48EF /* Assets.xcassets */,
+				04D73F482476278F00FC48EF /* LaunchScreen.storyboard */,
+				04D73F4B2476278F00FC48EF /* Info.plist */,
+				04D73F4C2476278F00FC48EF /* main.m */,
+			);
+			path = KNVoiceBroadcast;
+			sourceTree = "<group>";
+		};
+		04D73F582476281300FC48EF /* KNNotificationServiceExtension4Voice */ = {
+			isa = PBXGroup;
+			children = (
+				04EE342E27312A160034DDD2 /* KNNotificationServiceExtension4Voice.entitlements */,
+				04D73F592476281300FC48EF /* NotificationService.h */,
+				04D73F5A2476281300FC48EF /* NotificationService.m */,
+				04D73F5C2476281300FC48EF /* Info.plist */,
+			);
+			path = KNNotificationServiceExtension4Voice;
+			sourceTree = "<group>";
+		};
+		04D73F642476295D00FC48EF /* AudioTool */ = {
+			isa = PBXGroup;
+			children = (
+				04D73F6824762A2F00FC48EF /* KNAudioTool.h */,
+				04D73F6924762A2F00FC48EF /* KNAudioTool.m */,
+				04EDA0C6273EBEA9003BA522 /* KNApnsHelper.h */,
+				04EDA0C7273EBEA9003BA522 /* KNApnsHelper.m */,
+			);
+			path = AudioTool;
+			sourceTree = "<group>";
+		};
+		04D73F6D24762BDD00FC48EF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0487DB3724764FDE00925CB3 /* Resource */,
+				04D73F7C24762C1D00FC48EF /* YJMacro.h */,
+				04D73F6E24762BFD00FC48EF /* Category */,
+				04D73F7324762BFD00FC48EF /* JpushTool */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		04D73F6E24762BFD00FC48EF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04D73F6F24762BFD00FC48EF /* NSDictionary+YJDictionary.m */,
+				04D73F7024762BFD00FC48EF /* NSString+YJString.h */,
+				04D73F7124762BFD00FC48EF /* NSString+YJString.m */,
+				04D73F7224762BFD00FC48EF /* NSDictionary+YJDictionary.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04D73F7324762BFD00FC48EF /* JpushTool */ = {
+			isa = PBXGroup;
+			children = (
+				0487DB3524764CB000925CB3 /* JPushTool.m */,
+				04D73F7424762BFD00FC48EF /* JPushTool.h */,
+			);
+			path = JpushTool;
+			sourceTree = "<group>";
+		};
+		975513CDA2D275C2F7F52795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B86E848C3E1EDB1A08FAC07 /* Pods-KNVoiceBroadcast.debug.xcconfig */,
+				5567404DA549974DB58941C6 /* Pods-KNVoiceBroadcast.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D73F362476278700FC48EF /* KNVoiceBroadcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D73F502476278F00FC48EF /* Build configuration list for PBXNativeTarget "KNVoiceBroadcast" */;
+			buildPhases = (
+				79F83FFABB1C3AD2BFC0A9C0 /* [CP] Check Pods Manifest.lock */,
+				04D73F332476278700FC48EF /* Sources */,
+				04D73F342476278700FC48EF /* Frameworks */,
+				04D73F352476278700FC48EF /* Resources */,
+				04D73F632476281300FC48EF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D73F5E2476281300FC48EF /* PBXTargetDependency */,
+			);
+			name = KNVoiceBroadcast;
+			productName = KNVoiceBroadcast;
+			productReference = 04D73F372476278700FC48EF /* KNVoiceBroadcast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D73F562476281300FC48EF /* KNNotificationServiceExtension4Voice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D73F602476281300FC48EF /* Build configuration list for PBXNativeTarget "KNNotificationServiceExtension4Voice" */;
+			buildPhases = (
+				04D73F532476281300FC48EF /* Sources */,
+				04D73F542476281300FC48EF /* Frameworks */,
+				04D73F552476281300FC48EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNNotificationServiceExtension4Voice;
+			productName = KNNotificationServiceExtension4Voice;
+			productReference = 04D73F572476281300FC48EF /* KNNotificationServiceExtension4Voice.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D73F2F2476278700FC48EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KN;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "https://kunnan.blog.csdn.net  ";
+				TargetAttributes = {
+					04D73F362476278700FC48EF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					04D73F562476281300FC48EF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 04D73F322476278700FC48EF /* Build configuration list for PBXProject "KNVoiceBroadcast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D73F2E2476278700FC48EF;
+			productRefGroup = 04D73F382476278700FC48EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D73F362476278700FC48EF /* KNVoiceBroadcast */,
+				04D73F562476281300FC48EF /* KNNotificationServiceExtension4Voice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D73F352476278700FC48EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0487DB8124764FDF00925CB3 /* logo.png in Resources */,
+				0487DB6324764FDF00925CB3 /* tts_thousand.mp3 in Resources */,
+				0487DB6524764FDF00925CB3 /* tts_hundred.mp3 in Resources */,
+				0487DB6D24764FDF00925CB3 /* tts_1.mp3 in Resources */,
+				0487DB7D24764FDF00925CB3 /* logo58x58.png in Resources */,
+				0487DB7924764FDF00925CB3 /* logo80x80.png in Resources */,
+				0487DB8724764FDF00925CB3 /* logo87x87.png in Resources */,
+				0487DB7324764FDF00925CB3 /* tts_5.mp3 in Resources */,
+				0487DB6724764FDF00925CB3 /* tts_ten_thousand.mp3 in Resources */,
+				0487DB8924764FDF00925CB3 /* logo180x180.png in Resources */,
+				0487DB7724764FDF00925CB3 /* tts_6.mp3 in Resources */,
+				0487DB7F24764FDF00925CB3 /* logo60x60.png in Resources */,
+				0487DB6924764FDF00925CB3 /* tts_2.mp3 in Resources */,
+				04D73F4A2476278F00FC48EF /* LaunchScreen.storyboard in Resources */,
+				0487DB6F24764FDF00925CB3 /* tts_0.mp3 in Resources */,
+				0487DB8524764FDF00925CB3 /* logo40x40.png in Resources */,
+				0487DB5724764FDF00925CB3 /* tts_ten.mp3 in Resources */,
+				0487DB6124764FDF00925CB3 /* tts_default.mp3 in Resources */,
+				0487DB5D24764FDF00925CB3 /* tts_dot.mp3 in Resources */,
+				0487DB5924764FDF00925CB3 /* tts_9.mp3 in Resources */,
+				0487DB5F24764FDF00925CB3 /* tts_pre.mp3 in Resources */,
+				0487DB5B24764FDF00925CB3 /* tts_yuan.mp3 in Resources */,
+				0487DB7B24764FDF00925CB3 /* logo1024x1024.png in Resources */,
+				0487DB5524764FDF00925CB3 /* tts_8.mp3 in Resources */,
+				04D73F472476278F00FC48EF /* Assets.xcassets in Resources */,
+				0487DB7524764FDF00925CB3 /* tts_7.mp3 in Resources */,
+				0487DB8324764FDF00925CB3 /* logo120x120.png in Resources */,
+				04D73F452476278700FC48EF /* Main.storyboard in Resources */,
+				0487DB6B24764FDF00925CB3 /* tts_3.mp3 in Resources */,
+				0487DB7124764FDF00925CB3 /* tts_4.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D73F552476281300FC48EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0487DB7E24764FDF00925CB3 /* logo58x58.png in Resources */,
+				0487DB8224764FDF00925CB3 /* logo.png in Resources */,
+				0487DB5824764FDF00925CB3 /* tts_ten.mp3 in Resources */,
+				0487DB5C24764FDF00925CB3 /* tts_yuan.mp3 in Resources */,
+				0487DB7624764FDF00925CB3 /* tts_7.mp3 in Resources */,
+				0487DB7A24764FDF00925CB3 /* logo80x80.png in Resources */,
+				0487DB7224764FDF00925CB3 /* tts_4.mp3 in Resources */,
+				0487DB8824764FDF00925CB3 /* logo87x87.png in Resources */,
+				0487DB5624764FDF00925CB3 /* tts_8.mp3 in Resources */,
+				0487DB6A24764FDF00925CB3 /* tts_2.mp3 in Resources */,
+				0487DB6E24764FDF00925CB3 /* tts_1.mp3 in Resources */,
+				0487DB8624764FDF00925CB3 /* logo40x40.png in Resources */,
+				0487DB7424764FDF00925CB3 /* tts_5.mp3 in Resources */,
+				0487DB5A24764FDF00925CB3 /* tts_9.mp3 in Resources */,
+				0487DB6024764FDF00925CB3 /* tts_pre.mp3 in Resources */,
+				0487DB8A24764FDF00925CB3 /* logo180x180.png in Resources */,
+				0487DB6224764FDF00925CB3 /* tts_default.mp3 in Resources */,
+				0487DB6424764FDF00925CB3 /* tts_thousand.mp3 in Resources */,
+				0487DB7024764FDF00925CB3 /* tts_0.mp3 in Resources */,
+				0487DB8024764FDF00925CB3 /* logo60x60.png in Resources */,
+				0487DB8424764FDF00925CB3 /* logo120x120.png in Resources */,
+				0487DB6C24764FDF00925CB3 /* tts_3.mp3 in Resources */,
+				0487DB6624764FDF00925CB3 /* tts_hundred.mp3 in Resources */,
+				0487DB6824764FDF00925CB3 /* tts_ten_thousand.mp3 in Resources */,
+				0487DB5E24764FDF00925CB3 /* tts_dot.mp3 in Resources */,
+				0487DB7824764FDF00925CB3 /* tts_6.mp3 in Resources */,
+				0487DB7C24764FDF00925CB3 /* logo1024x1024.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79F83FFABB1C3AD2BFC0A9C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KNVoiceBroadcast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D73F332476278700FC48EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D73F422476278700FC48EF /* ViewController.m in Sources */,
+				04EDA0C8273EBEA9003BA522 /* KNApnsHelper.m in Sources */,
+				04D73F6A24762A2F00FC48EF /* KNAudioTool.m in Sources */,
+				04D73F7824762BFD00FC48EF /* NSString+YJString.m in Sources */,
+				04D73F3C2476278700FC48EF /* AppDelegate.m in Sources */,
+				04D73F7624762BFD00FC48EF /* NSDictionary+YJDictionary.m in Sources */,
+				04D73F4D2476278F00FC48EF /* main.m in Sources */,
+				0487DB3624764CB000925CB3 /* JPushTool.m in Sources */,
+				04D73F3F2476278700FC48EF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D73F532476281300FC48EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D73F7724762BFD00FC48EF /* NSDictionary+YJDictionary.m in Sources */,
+				04D73F5B2476281300FC48EF /* NotificationService.m in Sources */,
+				04D73F6B24762A2F00FC48EF /* KNAudioTool.m in Sources */,
+				04EDA0C9273EBEA9003BA522 /* KNApnsHelper.m in Sources */,
+				04D73F7924762BFD00FC48EF /* NSString+YJString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D73F5E2476281300FC48EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D73F562476281300FC48EF /* KNNotificationServiceExtension4Voice */;
+			targetProxy = 04D73F5D2476281300FC48EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D73F432476278700FC48EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D73F442476278700FC48EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04D73F482476278F00FC48EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D73F492476278F00FC48EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D73F4E2476278F00FC48EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04D73F4F2476278F00FC48EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D73F512476278F00FC48EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B86E848C3E1EDB1A08FAC07 /* Pods-KNVoiceBroadcast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KNVoiceBroadcast/KNVoiceBroadcast.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 249PMS4KB9;
+				INFOPLIST_FILE = KNVoiceBroadcast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qct.retail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D73F522476278F00FC48EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5567404DA549974DB58941C6 /* Pods-KNVoiceBroadcast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KNVoiceBroadcast/KNVoiceBroadcast.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 249PMS4KB9;
+				INFOPLIST_FILE = KNVoiceBroadcast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qct.retail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04D73F612476281300FC48EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KNNotificationServiceExtension4Voice/KNNotificationServiceExtension4Voice.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 249PMS4KB9;
+				INFOPLIST_FILE = KNNotificationServiceExtension4Voice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qct.retail.YJNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D73F622476281300FC48EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KNNotificationServiceExtension4Voice/KNNotificationServiceExtension4Voice.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 249PMS4KB9;
+				INFOPLIST_FILE = KNNotificationServiceExtension4Voice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qct.retail.YJNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D73F322476278700FC48EF /* Build configuration list for PBXProject "KNVoiceBroadcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D73F4E2476278F00FC48EF /* Debug */,
+				04D73F4F2476278F00FC48EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D73F502476278F00FC48EF /* Build configuration list for PBXNativeTarget "KNVoiceBroadcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D73F512476278F00FC48EF /* Debug */,
+				04D73F522476278F00FC48EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D73F602476281300FC48EF /* Build configuration list for PBXNativeTarget "KNNotificationServiceExtension4Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D73F612476281300FC48EF /* Debug */,
+				04D73F622476281300FC48EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D73F2F2476278700FC48EF /* Project object */;
+}
